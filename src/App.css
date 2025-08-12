@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.App-header h1 {
+  margin-bottom: 1rem;
+}
+
+.App-header p {
+  opacity: 0.9;
+}
+
+main {
+  background-color: #f8fafc;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.grid > div {
+  transition: transform 0.2s ease-in-out;
+}
+
+.grid > div:hover {
+  transform: translateY(-4px);
+}
